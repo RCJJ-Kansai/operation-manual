@@ -1,0 +1,4 @@
+#除外リスト
+.vscode/
+gh-pages
+gh-pages.pub
