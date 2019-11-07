@@ -1,0 +1,21 @@
+site_name: "Title"
+
+theme:
+  name: 'material'
+  language: 'ja'
+  palette:
+    primary: 'cyan'
+    accent: 'pink'
+  feature:
+    tabs: true
+  #logo: 'images/logo_long.png'
+extra:
+  search:
+    language: 'jp'
+markdown_extensions:
+  - admonition
+  - codehilite
+
+# Page tree
+nav:
+  - 'Home': 'index.md'
