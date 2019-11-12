@@ -19,3 +19,7 @@ markdown_extensions:
 # Page tree
 nav:
   - 'Home': 'index.md'
+  - 'エントリー':
+    #- 'エントリーフォームの作成':
+    - 'データチェックと整理': 'entry/checkEntryData.md'
+    - '表彰状の作成': 'makeCertificate.md'
