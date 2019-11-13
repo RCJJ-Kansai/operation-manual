@@ -22,4 +22,6 @@ nav:
   - 'エントリー':
     #- 'エントリーフォームの作成':
     - 'データチェックと整理': 'entry/checkEntryData.md'
-    - '表彰状の作成': 'makeCertificate.md'
+    - '表彰状の作成': 'entry/makeCertificate.md'
+  - 'スタッフ':
+    - 'メンタースタッフ': 'staff/mentorStaff.md'
