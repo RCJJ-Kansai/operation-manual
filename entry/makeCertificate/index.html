@@ -269,6 +269,18 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../makePlayerReceptionList/" title="選手受付名簿の作成" class="md-nav__link">
+      選手受付名簿の作成
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -279,9 +291,38 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        表彰状の作成
+      </label>
+    
     <a href="./" title="表彰状の作成" class="md-nav__link md-nav__link--active">
       表彰状の作成
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目次</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1.表彰状リストの作成
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -344,6 +385,22 @@
     
   
   
+    <label class="md-nav__title" for="__toc">目次</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1.表彰状リストの作成
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -356,7 +413,21 @@
                 
                 
                 <h1 id="_1">表彰状の作成</h1>
-<p>表彰状リストを作成し、大会前に印刷します。  </p>
+<p>表彰状リストを作成し、大会前に印刷、大抵準備日に押印します。  </p>
+<p>大まかな作業手順は以下の通りです。<br />
+1. <a href="#1.表彰状リストの作成">表彰状リストの作成</a><br />
+2. <a href="#2.表彰状原稿の修正">表彰状原稿の修正</a><br />
+3. <a href="#3.差し込み印刷">差し込み印刷</a>
+4. <a href="#4.押印">押印</a></p>
+<p><br></p>
+<h2 id="1">1.表彰状リストの作成</h2>
+<p>整理済み参加者リストのデータをもとに、チーム名と氏名のリストを作成します。<br />
+<br></p>
+<ol>
+<li>整理済みexcelブックに新たにシートを追加し「表彰状」という名前にします。  </li>
+<li>表彰状シートのA1をチーム名、B1を氏名にします。 </li>
+<li>選手受付名簿から、チーム名および参加者氏名をコピーし、全員分をリストにします。<br>「行/列を入れ替えて貼り付け」を使用するとちょっと楽ですが、本来はマクロ化を検討すべきだと思います。</li>
+</ol>
                 
                   
                 
@@ -377,7 +448,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../checkEntryData/" title="データチェックと整理" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../makePlayerReceptionList/" title="選手受付名簿の作成" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -386,7 +457,7 @@
                 <span class="md-footer-nav__direction">
                   前
                 </span>
-                データチェックと整理
+                選手受付名簿の作成
               </span>
             </div>
           </a>

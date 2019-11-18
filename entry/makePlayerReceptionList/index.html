@@ -36,7 +36,7 @@
     
     
       
-        <title>データチェックと整理 - RCJ関西ブロック運営マニュアル</title>
+        <title>選手受付名簿の作成 - RCJ関西ブロック運営マニュアル</title>
       
     
     
@@ -109,7 +109,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                データチェックと整理
+                選手受付名簿の作成
               
             </span>
           
@@ -176,7 +176,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="./" class="md-tabs__link md-tabs__link--active">
+        <a href="../checkEntryData/" class="md-tabs__link md-tabs__link--active">
           エントリー
         </a>
       
@@ -257,6 +257,18 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../checkEntryData/" title="データチェックと整理" class="md-nav__link">
+      データチェックと整理
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -268,11 +280,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        データチェックと整理
+        選手受付名簿の作成
       </label>
     
-    <a href="./" title="データチェックと整理" class="md-nav__link md-nav__link--active">
-      データチェックと整理
+    <a href="./" title="選手受付名簿の作成" class="md-nav__link md-nav__link--active">
+      選手受付名簿の作成
     </a>
     
       
@@ -287,7 +299,21 @@
       
         <li class="md-nav__item">
   <a href="#1" class="md-nav__link">
-    1.データのダウンロード
+    1.整理済みデータのコピー
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2.不要な情報の削除
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3.体裁の調整
   </a>
   
 </li>
@@ -300,18 +326,6 @@
   
 </nav>
     
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../makePlayerReceptionList/" title="選手受付名簿の作成" class="md-nav__link">
-      選手受付名簿の作成
-    </a>
   </li>
 
         
@@ -390,7 +404,21 @@
       
         <li class="md-nav__item">
   <a href="#1" class="md-nav__link">
-    1.データのダウンロード
+    1.整理済みデータのコピー
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2.不要な情報の削除
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3.体裁の調整
   </a>
   
 </li>
@@ -412,20 +440,34 @@
               
                 
                 
-                <h1 id="_1">データの確認と整理</h1>
-<p>エントリー期間終了後、データの整理を行います。<br />
-前←エントリーの実施(まだないよ)<br />
-次→<a href="../makePlayerReceptionList/">受付表の作成</a></p>
-<p>手順は以下の通り。<br />
-1. データのダウンロード<br />
-2. 整理用シートの作成<br />
-3. データの並べ替え、修整<br />
-4. NL出場資格の確認<br />
-5. チーム番号割当て<br />
-6. チームリストをブログに掲載  </p>
-<h2 id="1">1.データのダウンロード</h2>
-<p>エントリー期間が終了したら、Googleスプレッドシートに登録されたデータをxlsx形式でダウンロードします。<br />
-スプレッドシートの「フォームの回答」はフォーム送信時に自動で値が書き込まれます。そのため、ここを編集してしまうとデータが上書きされたり、列がずれたりと、予期しないトラブルに繋がる可能性があります。</p>
+                <h1 id="_1">選手受付名簿の作成</h1>
+<p>整理済みデータを基に、選手受付名簿を作成します。<br />
+前←<a href="../checkEntryData/">データの確認の整理</a><br />
+次→<a href="./">表情の作成</a>  </p>
+<p><br></p>
+<p>手順は以下の通りです。<br />
+1. 整理済みデータのコピー
+2. 不要な情報の削除
+3. 体裁の調整</p>
+<p><br></p>
+<h2 id="1">1.整理済みデータのコピー</h2>
+<p>整理が完了したら、整理済みシートをコピーし「受付表」にリネームします。<br />
+複数大会のエントリー情報が1つのブックに収まっている場合は、大会ごとに作成し、「中央受付表」等、区別がつくようにしてください。</p>
+<h2 id="2">2.不要な情報の削除</h2>
+<p>必要な情報以外は削除します。残す情報は以下の通りです。<br />
+* チーム番号
+* チーム名
+* 人数
+* 選手氏名
+* メディア承諾について
+* 備考</p>
+<p>メディア露出承諾については、「要提出」or「済」に書き換えてください。<br />
+備考欄については、受付で把握しておくべき情報以外は削除し、できるだけシンプルにしてください。<br />
+事前に欠席が分かっている場合は、欠席者or欠席チームの背景色をグレーにし、欠席であることが分かるようにしておいてください。</p>
+<h2 id="3">3.体裁の調整</h2>
+<p>すべての列がA4 1枚に収まるように、印刷時の余白や列幅などを調整してください。<br />
+文字サイズを小さくすると受付担当者が見えなくなるので、文字サイズは最低でも10ptを維持してください。<br />
+また、受付で印をつけることがありますので、左余白は削りすぎないよう、8mm程度は維持してください。</p>
                 
                   
                 
@@ -446,7 +488,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../.." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../checkEntryData/" title="データチェックと整理" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -455,19 +497,19 @@
                 <span class="md-footer-nav__direction">
                   前
                 </span>
-                Home
+                データチェックと整理
               </span>
             </div>
           </a>
         
         
-          <a href="../makePlayerReceptionList/" title="選手受付名簿の作成" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../makeCertificate/" title="表彰状の作成" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   次
                 </span>
-                選手受付名簿の作成
+                表彰状の作成
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
