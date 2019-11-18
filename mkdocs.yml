@@ -22,6 +22,7 @@ nav:
   - 'エントリー':
     #- 'エントリーフォームの作成':
     - 'データチェックと整理': 'entry/checkEntryData.md'
+    - '選手受付名簿の作成': 'entry/makePlayerReceptionList.md'
     - '表彰状の作成': 'entry/makeCertificate.md'
   - 'スタッフ':
     - 'メンタースタッフ': 'staff/mentorStaff.md'
