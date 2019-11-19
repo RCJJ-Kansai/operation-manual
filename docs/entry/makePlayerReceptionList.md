@@ -2,7 +2,7 @@
 
 整理済みデータを基に、選手受付名簿を作成します。  
 前←[データの確認の整理](checkEntryData.md)  
-次→[表情の作成](makePlayerReceptionList.md)  
+次→[賞状の作成](makePlayerReceptionList.md)  
 
 <br>
 
