@@ -25,4 +25,5 @@ nav:
     - '選手受付名簿の作成': 'entry/makePlayerReceptionList.md'
     - '表彰状の作成': 'entry/makeCertificate.md'
   - 'スタッフ':
+    - '必要スタッフ数の算出': 'staff/howMenyStaffNeed.md'
     - 'メンタースタッフ': 'staff/mentorStaff.md'
